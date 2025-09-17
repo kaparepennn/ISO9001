@@ -4,7 +4,7 @@ import { Box } from '@mui/material';
 
 import Sidebar from './components/Sidebar';
 import Dashboard from './components/Dashboard/Dashboard';
-import Documents from './components/Documents/Documents';
+import Documents from './components/DocumentManagement/DocumentManagement';
 import Companies from './components/Companies/Companies';
 import Users from './components/Users/Users';
 import Trainings from './components/Trainings/Trainings';

@@ -9,6 +9,7 @@ import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';*/
 import SchoolIcon from '@mui/icons-material/School';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import SettingsIcon from '@mui/icons-material/Settings';
+import BusinessIcon from '@mui/icons-material/Business';
 
 const drawerWidth = 280;
 
@@ -20,6 +21,7 @@ const menuItems = [
   { text: 'Satisfacción del Cliente', icon: <EmojiPeopleIcon />, path: '/satisfaction' },*/
   { text: 'Capacitación', icon: <SchoolIcon />, path: '/trainings' },
   { text: 'Auditorías', icon: <CheckCircleIcon />, path: '/audits' },
+  { text: 'Empresas', icon: <BusinessIcon />, path: '/companies' },
   { text: 'Usuarios y roles', icon: <SettingsIcon />, path: '/users' }, // usa users aquí para config
 ];
 
