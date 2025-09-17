@@ -80,22 +80,6 @@ export default function Dashboard() {
             </Typography>
           </Paper>
         </Grid>
-
-        {/* Estado tareas desarrollo */}
-        <Grid item xs={12} md={6} lg={4}>
-          <Paper sx={{ p: 3 }}>
-            <Typography variant="h6">Estado de tareas de desarrollo</Typography>
-            {renderTasksStatus(dataMock.tasksStatus.development)}
-          </Paper>
-        </Grid>
-
-        {/* Estado tareas pruebas */}
-        <Grid item xs={12} md={6} lg={4}>
-          <Paper sx={{ p: 3 }}>
-            <Typography variant="h6">Estado de tareas de pruebas</Typography>
-            {renderTasksStatus(dataMock.tasksStatus.testing)}
-          </Paper>
-        </Grid>
       </Grid>
     </Box>
   );
