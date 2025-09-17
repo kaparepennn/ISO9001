@@ -52,10 +52,7 @@ export default function Sidebar() {
           <Typography variant="h6" noWrap sx={{ fontWeight: 'bold', color: 'primary.main' }}>
             TinCar
           </Typography>
-        </Box>
-        <Typography sx={{ ml: 1, fontSize: 12, fontWeight: 'bold', color: 'text.secondary' }}>
-          SGC TinCar - ISO 9001
-        </Typography>
+        </Box> 
       </Toolbar>
       <List>
         {menuItems.map(({ text, icon, path }) => (
